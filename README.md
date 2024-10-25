@@ -10,7 +10,7 @@ In modern computing environments, efficient process scheduling is crucial for op
 - **First-Come, First-Serve (FCFS):** Executes processes in the order they arrive.
 - **Shortest Job First (SJF):** Selects the process with the smallest burst time.
 - **Shortest Remaining Time (SRT):** Preempts the currently running process if a new process arrives with a shorter burst time.
-- **Round Robin:** Allocates a fixed time quantum to each process, allowing for fair CPU sharing among processes.
+- **Round Robin(RR):** Allocates a fixed time quantum to each process, allowing for fair CPU sharing among processes.
 - **User-friendly output:** Displays results in a clear tabular format, including waiting time and turnaround time for each process.
 - **Average waiting and turnaround time calculations:** Provides overall performance metrics for the scheduling algorithms.
 
