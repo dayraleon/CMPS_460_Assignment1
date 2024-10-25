@@ -1,7 +1,7 @@
 # CMPS_460_Assignment1 Process Scheduling Algorithms
 
 ## Overview
-This application simulates various CPU scheduling algorithms, including First-Come, First-Serve (FCFS), Shortest Job First (SJF), Shortest Remaining Time (SRT), and Round Robin scheduling. The intended audience includes computer science students, educators, and software developers interested in understanding and visualizing process scheduling in operating systems.
+This application simulates various CPU scheduling algorithms, including First-Come, First-Serve (FCFS), Shortest Job First (SJF), Shortest Remaining Time (SRT), and Round Robin scheduling(RR). The intended audience includes computer science students, educators,and software developers interested in understanding and visualizing process scheduling in operating systems.
 
 ### Problem Statement
 In modern computing environments, efficient process scheduling is crucial for optimizing CPU utilization and minimizing response time. This application helps users visualize and understand different scheduling algorithms, allowing them to compare performance metrics such as waiting time and turnaround time for various process sets.
@@ -17,14 +17,9 @@ In modern computing environments, efficient process scheduling is crucial for op
 ## How to Run the App
 1. **Clone the repository:**
    ```bash
-   git clone
+   git clone https://github.com/dayraleon/CMPS_460_Assignment1.git
 
-Results for First-Come, First-Serve (FCFS):
- Process ID  Arrival Time  Burst Time  Waiting Time  Turnaround Time
-         1             0           8             0                8
-         2             1           4             7               11
-         3             2           9            10               19
-         4             3           5            18               23
+## Output
+The application will output the scheduling results for each algorithm in a tabular format. Below is an example output image:
 
-Average Waiting Time: 8.75
-Average Turnaround Time: 15.25
+![Alt text](output.png)
